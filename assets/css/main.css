@@ -200,19 +200,22 @@ hr {
 
 .card {
     display: inline-block;
-    width: 50%;
-    height: 500px;
+    width:31.8%;
+    height: 360px;
     background-color: #fff;
     box-shadow: 0 0 10px #e0e0e0;
     border-radius: 3px;
     border: 1px solid #e0e0e0;
     margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     cursor: pointer;
     overflow: hidden;
+    
 }
 .card__cover {
     width: 100%;
-    height: 300px;
+    height: 145px;
     overflow: hidden;
 }
 
@@ -228,7 +231,7 @@ hr {
     color: #333;
 }
 .card__header__title {
-    font-size:1.5rem;
+    font-size: 1.2rem;
     margin: 0;
 }
 .card__body {
@@ -298,11 +301,6 @@ hr {
     .container {
         width: 960px;
     }
-    .card {
-        width: 48.5%;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -310,7 +308,10 @@ hr {
         width: 768px;
     }
     .card {
-        width: 100%;
+        width:31.4%;
+    }
+    .card__header__title {
+        font-size: 1rem;
     }
 }
 
@@ -320,6 +321,12 @@ hr {
     }
     .card {
         width: 100%;
+        height: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card__cover {
+        height: 220px;
     }
 }
 
@@ -331,8 +338,17 @@ hr {
         border-radius: 0;
         box-shadow: 0 0 0;
         width: 100%;
+        height: 420px;
         border-left: 0;
         border-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card__cover {
+        height: 220px;
+    }
+    .card__header__title {
+        font-size: 1.4rem;
     }
 }
 
