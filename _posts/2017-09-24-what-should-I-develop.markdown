@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "어떤 기술을 개발해야 할까"
-date:   2017-09-24 22:44:41 +0900
+date:   2017-09-24
 author: "J911"
 categories: log
 cover: "/assets/post-assets/2017-09-24-what-should-I-develop/cover.jpg"
