@@ -7,7 +7,6 @@ author: "J911"
 categories: log jekyll
 cover: "/assets/post-assets/2018-09-22-create-jekyll-blog/cover.jpg"
 ---
-{% raw %}
 오랜만에 블로깅을 다시 시작하고자 블로그를 리뉴얼 하였다.
 
 처음 사용한 블로그 플랫폼은 브런치였는데, *브런치*는 마크다운으로 글을 쓸 수가 업고 검색엔진에서 노출되기가 힘들다는 문제가 있었다.
@@ -74,6 +73,7 @@ my-awesome-site의 목록을 열어보면 다음과 같은 구조가 자동 생�
 
 ## 본격 커스텀 시작하기
 나는 default 레이아웃을 등록해 기본 레이아웃을 잡았다.
+{% raw %}
 ```
 <html>
     {%- include head.html -%}  
@@ -90,8 +90,8 @@ my-awesome-site의 목록을 열어보면 다음과 같은 구조가 자동 생�
         {%- include analytics.html -%}
     </body>
 </html>
-
 ```
+{% endraw %}
 다음과 같이 `default.html`을 만들고 default에서 인클루드한 html조각들을 `_include`에 등록해 주었다.
 
 ```
@@ -113,6 +113,7 @@ assets
 ```
 
 ```
+{% raw %}
 <head>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' }}">
     <!-- 다음과 같이 _config.yml의 메타데이터를 불러와 사용하는 것도 가능하다. -->
@@ -120,6 +121,7 @@ assets
     <!-- seo를 불러오면 _config.yml의 메타데이터를 불러와 자동으로 seo를 만들어준다. -->
     {%- seo -%}
 </head>
+{% endraw %}
 ```
 
 ## 포스팅하기
@@ -151,4 +153,3 @@ jekyll은 생각보다 간단하면서도 복잡하게 이루어져있다.
 이에 대하서는 다음 기회에 상세하게 작성해 기록해야겠다.
 
 
-{% endraw %}
