@@ -25,7 +25,7 @@ cover: "/assets/post-assets/2018-09-22-create-jekyll-blog/cover.jpg"
 ## 개발하려니 생긴 문제
 개발을 시작하려고 보니 문제가 하나 생겼다.
 
-나는 jekyll에 대해 전혀 모르른 것이였다.
+나는 jekyll에 대해 전혀 모른다는 것이었다.
 
 그래서 [jekyll 문서](https://jekyllrb-ko.github.io/)를 보고 따라해보면서 익히기 시작했다.
 
@@ -39,7 +39,7 @@ $ gem install bundler jekyll
 $ jekyll new my-awesome-site
 $ cd my-awesome-site
 ```
-등록이 완료되면 다음 명령으로 localhost:4000으로 확인할 수 있다.
+등록이 완료되면 다음 명령으로 localhost:4000에서 확인할 수 있다.
 ```
 $ bundle exec jekyll serve
 ```
@@ -64,10 +64,10 @@ my-awesome-site의 목록을 열어보면 다음과 같은 구조가 자동 생�
 - about.md: /about.html로 연결될 정적페이지
 - index.md: /index.html로 연결될 정적페이지 
 
-우선 나에게 about.md파일은 필요가 없는 페이지였으로 삭제하였다.
+우선 나에게 about.md파일은 필요가 없는 페이지었으로 삭제하였다.   
 그리고 블로그를 커스텀 하기 위해 필요한 디렉토리를 몇개 더 만들어야 한다.
 
-- _layout: 블로그의 레이아웃 템플릿을 저장할 디렉로리
+- _layout: 블로그의 레이아웃 템플릿을 저장할 디렉토리
 - _include: 레이아웃에서 불러 사용할 수 있는 html조각을 저장할 디렉토리
 - assets: 블로그에서 다룰 정적 리소스를 저장할 디렉토리
 
