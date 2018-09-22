@@ -28,6 +28,7 @@ permalink: /:year/:month/:title.html
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
