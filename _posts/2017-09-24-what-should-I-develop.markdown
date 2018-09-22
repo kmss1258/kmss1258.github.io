@@ -5,7 +5,7 @@ title:  "어떤 기술을 개발해야 할까"
 date:   2017-09-24 22:44:41 +0900
 author: "J911"
 categories: log
-cover: "/assets/post-assets/2017-09-24-what-should I-develop/cover.jpg"
+cover: "/assets/post-assets/2017-09-24-what-should-I-develop/cover.jpg"
 ---
 개발을 하다 문득 든 생각이,   
 나는 왜 개발을 하는가에 대한 생각이었다.
@@ -14,7 +14,7 @@ cover: "/assets/post-assets/2017-09-24-what-should I-develop/cover.jpg"
 
 요즘은 4.0 Industry, 4차 산업혁명 같은 단어들이 떠오르면서 사회가 인공지능, 자율주행차 같은 것에 집중하고 있는 것 같더라. 나는 개인적으로 여기에 대하여 회의적이다. 사람을 대체하는 기술을 개발하는 데 무분별하게 주목하는 듯한 사회의 흐름이 마음에 들지 않기 때문이다.
 
-![news](/assets/post-assets/2017-09-24-what-should I-develop/news.png)
+![news](/assets/post-assets/2017-09-24-what-should-I-develop/news.png)
 
 단순히 일자리뿐만이 아니라 미래 인간이 무엇을 할 수 있을지 고민하게 되었고, 결국에는 인간이 소외되는 사회가 이루어질 것 같았다. 인간이 인간으로서 존재해야 하는 이유가 없어질 수도 있지 않을까 라는 생각이다. 
 
@@ -32,7 +32,7 @@ cover: "/assets/post-assets/2017-09-24-what-should I-develop/cover.jpg"
 
 
 이러한 신념으로 만들어진 프로그램 중 하나가 '콘'이라는 프로그램인데,
-![con-1](/assets/post-assets/2017-09-24-what-should I-develop/con-1.png)
+![con-1](/assets/post-assets/2017-09-24-what-should-I-develop/con-1.png)
 
 
 강연자, 청중 간의 실시간 양방향 소통 플랫폼 '콘'
@@ -42,7 +42,7 @@ cover: "/assets/post-assets/2017-09-24-what-should I-develop/cover.jpg"
 
 
 평소 소극적이었던 행사, 교육들이 역동적이고 활발해지고 생기가 느껴지는 행사가 되었다.
-![con-2](/assets/post-assets/2017-09-24-what-should I-develop/con-2.png)
+![con-2](/assets/post-assets/2017-09-24-what-should-I-develop/con-2.png)
 
 
 나는 앞으로도 이러한 인간다운 가치를 제공하는 시스템 많이 도입되고, 생기 넘치는 사회가 되었으면 그리고 비정상이 정상이 되어버린 사회에서, 나의 개발 신념이 더 나은 한국을 만들 수 있게 되었으면 하는 바람이다.
