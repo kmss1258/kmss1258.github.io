@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/syntax.css' }}">
     {%- seo -%}
 
-    <meta property="og:image" content="{{ '/assets/image/cover.jpg' }}"/>
-    <title>{{ site.title | escape }}</title>
+    {% if page.cover != null %}
+        <meta property="og:image" content="{{ page.cover }}"/>
+    {% else %}
+        <meta property="og:image" content="{{ '/assets/image/cover.jpg' }}"/>
+    {% endif %}
 </head>
