@@ -12,6 +12,7 @@ a {
 .wrapper {
     position: relative;
     min-height: 100vh;
+    padding-top: 60px;
 }
 .nav {
     position: fixed;
@@ -162,7 +163,7 @@ a {
     text-align: left;
     box-sizing: border-box;
     min-height: 90vh;
-    padding: 80px 0 0 0;
+    padding: 20px 0 0 0;
 }
 .main__title {
     font-size: 3rem;
@@ -266,7 +267,7 @@ hr {
 }
 .post__cover {
     position: absolute;
-    top: 60px;
+    top: 0;
     left: 0;
     right: 0;
     height: 300px;
