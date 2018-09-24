@@ -5,7 +5,7 @@ title:  "애자일 방법론"
 date:   2018-09-23
 author: "J911"
 categories: log software-engineering
-cover: "/assets/post-assets/2018-09-23-agile-software-development/cover.png"
+cover: "/assets/post-assets/2018-09-23-agile-software-development/cover.jpeg"
 ---
 소프트웨어 공학수업에서 공부한 내용을 간략하게 정리해 놓은 문서이다.
 
