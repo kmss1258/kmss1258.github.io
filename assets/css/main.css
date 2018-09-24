@@ -295,8 +295,11 @@ hr {
     box-sizing: border-box;
 }
 .post__contents img {
+    display: block;
     width: 100%;
-    margin: 10px 0;
+    max-width: 750px;
+    margin: 10px auto;
+    box-shadow: 0 0 8px rgb(117, 117, 117);
 }
 @media (min-width: 960px) {
     .container {
