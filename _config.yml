@@ -17,7 +17,7 @@ title: 제이구일일의 개발 블로그
 lang: ko_KR
 email: jay@j911.me
 description: >- # this means to ignore newlines until "baseurl:"
-  제이구일일의 개발 블로그입니다
+  J911의 개발 블로그입니다
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://j911.me" # the base hostname & protocol for your site, e.g. http://example.com
 username: J911
