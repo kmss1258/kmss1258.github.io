@@ -25,6 +25,10 @@ github_username:  J911
 
 google_analytics: UA-126194835-1
 
+# paginate
+paginate: 6
+paginate_path: "/:num"
+
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:month/:title.html
 
@@ -36,3 +40,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-paginate
