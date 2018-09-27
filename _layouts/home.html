@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="card--group">
-    {%- if paginator.posts.size > 0 -%}
-    {%- for post in paginator.posts -%}
+    {%- if site.posts.size > 0 -%}
+    {%- for post in site.posts -%}
         <a href="{{ post.url | relative_url }}">
             <div class="card">
                 <div class="card__cover">
@@ -14,7 +14,7 @@ layout: default
                     <h3 class="card__header__title">{{ post.title | escape }}</h3>
                 </div>
                 <div class="card__body">
-                    {%- assign date_format = paginator.minima.date_format | default: "%b %-d, %Y" -%}
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     {{ post.date | date: date_format }}
                     
                     {{ post.excerpt }}
@@ -24,43 +24,3 @@ layout: default
     {%- endfor -%}
 {%- endif -%}
 </div>
-
-<script>
-    var count = 2;
-    var loading = false;
-
-    var cardGroup = document.querySelector('.card--group');
-
-    function loadNewPost() {
-        loading = true;
-        var xmlhttp = new XMLHttpRequest();
-
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-                loading = false;
-                if (xmlhttp.status == 200) {
-                    count++;
-                    var newHTML = document.createElement('html');
-                    newHTML.innerHTML = xmlhttp.responseText;
-                    var childItems = newHTML.querySelectorAll('.card--group > *');
-                    appendItem(childItems);
-                }
-            }
-        };
-
-        xmlhttp.open("GET", `/${count}`, true);
-        xmlhttp.send();
-    }
-
-    function appendItem(childItems) {
-        childItems.forEach(item => {
-            cardGroup.appendChild(item);
-        });
-    }
-
-    window.onscroll = function(ev) {
-        if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight && !loading) {
-            loadNewPost(); 
-        }
-    };
-</script>
