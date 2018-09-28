@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Node js에서 타입크립트와 함께 yaml/yml사용하기"
+title:  "Node js에서 타입스크립트와 함께 yaml/yml사용하기"
 date:   2018-09-28
 author: "J911"
 categories: nodejs web typescript yaml yml
