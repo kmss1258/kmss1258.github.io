@@ -7,16 +7,16 @@ author: "J911"
 categories: nodejs web typescript yaml yml
 cover: "/assets/post-assets/2018-09-28-using-yaml-in-typescript/cover.png"
 ---
-yaml은 데이터를 가볍게 담고있는 포맷입니다. 정말 직관적인 포맷으로 문자열, 숫자, 배열, 리스트 등의 자료형도 지원을 합니다.
+`yaml`은 데이터를 가볍게 담고있는 포맷입니다. 정말 직관적인 포맷으로 문자열, 숫자, 배열, 리스트 등의 자료형도 지원을 합니다.
 
 이것을 타입스크립트와 합께 사용하는 방법을 익혀봅시다.
 
-일단 간단한 yaml 파일을 작성해봅시다. yaml 파일을 .yml 확장자를 사용합니다.
+일단 간단한 `yaml` 파일을 작성해봅시다. `yaml` 파일을 `.yml` 확장자를 사용합니다.
 
 account.yml
 {% gist J911/411d10851844adf97580559836497cfa/revisions#diff-403e7043c5a93ff543f7c9cc459ab36b %}
 
-이렇게 작성한 yaml은 js-yaml 모듈을 통해 타입스크립트에서 로드할 수 있습니다.
+이렇게 작성한 `yaml`은 `js-yaml` 모듈을 통해 타입스크립트에서 로드할 수 있습니다.
 
 ```
 $ npm i -S js-yaml

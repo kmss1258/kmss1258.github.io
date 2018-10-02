@@ -7,7 +7,7 @@ author: "J911"
 categories: nodejs web JWT typescript api
 cover: "/assets/post-assets/2018-09-27-build-jwt-auth-api-with-typescript/cover.png"
 ---
-타입스크립트와 JWT(JSON Web Token)을 사용해서 간단한 express API 서버를 만들어보고자 한다.
+타입스크립트와 `JWT(JSON Web Token)`을 사용해서 간단한 express API 서버를 만들어보고자 한다.
 
 ## 프로젝트 준비
 
@@ -26,7 +26,7 @@ cover: "/assets/post-assets/2018-09-27-build-jwt-auth-api-with-typescript/cover.
 
 ## 타입스크립트 준비하기 
 
-그리고 타입스크립트를 사용하기 위해 의존성 모듈 설치와 tsconfig.json를 등록해주자.
+그리고 타입스크립트를 사용하기 위해 의존성 모듈 설치와 `tsconfig.json`를 등록해주자.
 
 ```
 $ npm init
@@ -58,15 +58,15 @@ $ npm i -S express body-parser
 $ ts-node src // server is running
 ```
 
-여기서 개발 로직과 관련이 없는 포트번호 등과 같은 프로퍼티는 yaml로 따로 분리해 사용할 것이다.
+여기서 개발 로직과 관련이 없는 포트번호 등과 같은 프로퍼티는 `yaml`로 따로 분리해 사용할 것이다.
 
-yaml을 로드하기 위해 js-yaml 모듈을 설치해주자.
+`yaml`을 로드하기 위해 `js-yaml` 모듈을 설치해주자.
 
 ```
 $ npm i -S js-yaml
 ```
 
-그리고 environment 디렉토리 아래에 environment.yml을 작성해주자.
+그리고 environment 디렉토리 아래에 `environment.yml`을 작성해주자.
 
 /src/environment/environment.yml
 
@@ -88,7 +88,7 @@ $ npm i -S js-yaml
 
 이제는 회원을 관리할 수 있는 데이터베이스를 등록해보자.
 
-이번 포스트에서는 mongoDB를 사용할 것이므로 mongoose 설치해주자.
+이번 포스트에서는 mongoDB를 사용할 것이므로 `mongoose` 설치해주자.
 
 ```
 $ npm i -S mongoose
@@ -108,7 +108,7 @@ $ npm i -S mongoose
 
 ## 본격 API 설계하기
 
-이제 api 라우터를 만들어 볼 텐데, 앞으로 만들 라우터가 많지는 않겠지만 추후 추가될 수있는 라우터가 생길 수 있으므로 조금 번거롭지만 router-abstract를 만들어 활용하도록 하자.
+이제 api 라우터를 만들어 볼 텐데, 앞으로 만들 라우터가 많지는 않겠지만 추후 추가될 수있는 라우터가 생길 수 있으므로 조금 번거롭지만 `router-abstract`를 만들어 활용하도록 하자.
 
 /src/router-abstract.ts
 
@@ -134,7 +134,7 @@ api 디렉토리에 api를 라우팅해 줄 index.ts와 auth-route.ts, account-r
 
 {% gist J911/1d66da7fbb8f5fdcc13affb0026c970a/74c55ce2d1f062e6f6f8f6c78b6dd486dc6ec114 %}
 
-간단하게 sign-in, sign-up 라우터를 추가했다.
+간단하게 `sign-in`, `sign-up` 라우터를 추가했다.
 
 이제 실제 동작을 시킬 수 있도록 컨트롤러를 설계할 것이다.
 
@@ -148,7 +148,7 @@ api 디렉토리에 api를 라우팅해 줄 index.ts와 auth-route.ts, account-r
 
 그리고 account의 비밀번호를 암호화하고 복호화할 수 있는 모듈을 설치하자.
 
-이번 포스팅에서는 bcrypt를 사용할 것이다.
+이번 포스팅에서는 `bcrypt`를 사용할 것이다.
 
 ```
 $ npm i -S bcryptjs
@@ -170,13 +170,13 @@ $ npm i -S bcryptjs
 ```
 $ npm i -S jsonwebtoken
 ```
-jwt 모듈은 토큰을 생성하는 jwt.sign()메서드와 토큰의 유효성을 체크하는 jwt.verify() 메서드를 제공한다.
+jwt 모듈은 토큰을 생성하는 `jwt.sign()`메서드와 토큰의 유효성을 체크하는 `jwt.verify()` 메서드를 제공한다.
 
-여기서 사용하는 jwt.sign()는 토큰을 생성할 때 필요한 secret 문자열을 필요로 한다. 이것도 마찬가지로 environment.yml에 등록해 사용하자.
+여기서 사용하는 `jwt.sign()`는 토큰을 생성할 때 필요한 secret 문자열을 필요로 한다. 이것도 마찬가지로 `environment.yml`에 등록해 사용하자.
 
 {% gist J911/b83e3245aa50386b6500e6c97da5cca9/c3bbbd21f4e8c7cf76f30979cdf452f16da4e822 %}
 
-jwt.sign()으로 토큰을 발행하여 반환해 주면 클라이언트는 해당 토큰을 브라우저의 로컬 스토리지 혹은 세션에 저장을 하고 인증이 필요한 요청이 있을 때 요청 헤더에 token을 넣어 보내 인증을 시킬 것이다.
+`jwt.sign()`으로 토큰을 발행하여 반환해 주면 클라이언트는 해당 토큰을 브라우저의 로컬 스토리지 혹은 세션에 저장을 하고 인증이 필요한 요청이 있을 때 요청 헤더에 token을 넣어 보내 인증을 시킬 것이다.
 
 이를 활용해 다음과 같이 컨트롤러를 작성하자. 
 
