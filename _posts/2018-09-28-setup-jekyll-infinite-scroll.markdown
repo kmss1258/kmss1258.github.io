@@ -15,7 +15,7 @@ cover: "/assets/post-assets/2018-09-28-setup-jekyll-infinite-scroll/cover.png"
 ## 지킬에서 페이지네이션 사용하기
 우선 지킬 페이지네이션 플러그인인 `jekyll-paginate`를 설치해주자.
 
-`_config.yml`과 `Gemfile` 두 개를 수정해주면 된다.
+_config.yml과 Gemfile 두 개를 수정해주면 된다.
 
 _config.yml
 
@@ -47,14 +47,20 @@ _layout/home.html
 
 이렇게 바꾸었다. **site를 paginator**로 바꾼 것이 모두이다.
 
-이렇게 따라할 경우 `_config.yml`에 설정한 경로로 설정 개수만큼 나누어 화면에 뿌려줄 수 가있다.
+이렇게 따라할 경우 _config.yml에 설정한 경로로 설정 개수만큼 나누어 화면에 뿌려줄 수 가있다.
 
-이 글을 따라오셨다면 `/page/2`, `/page/3` 에서 다음 피드들을 나누어 볼 수 있다.
+이 글을 따라오셨다면 /page/2, /page/3 에서 다음 피드들을 나누어 볼 수 있다.
 
 ## 본격 무한 스크롤 만들기
 이제 무한스크롤 라이브러리를 다운 받아야한다.
 
-[https://github.com/J911/jekyll-infinite-scroll/archive/master.zip](https://github.com/J911/jekyll-infinite-scroll/archive/master.zip)링크로 모듈을 다운받아 사용하자.
+[https://github.com/J911/jekyll-infinite-scroll/archive/master.zip](https://github.com/J911/jekyll-infinite-scroll/archive/master.zip)링크로 모듈을 다운받거나
+
+```
+$ bower install jekyll-infinite-scroll --save
+```
+
+과 같이 bower을 통해 설치를 하자.
 
 다음과 같은 CDN을 사용해도 된다. 하지만 모듈을 다운받아 사용하는 것을 권장한다.
 
@@ -73,7 +79,7 @@ _layout/home.html
 {% endraw %}
 다음과 같이 라이브러리를 불러와주자.
 
-이 이후 게시글 전체를 감싸고 있는 태그의 id값과 `_config.yml`에 입력한 `paginate_path값에서 :num` 이전 까지의 주소를 변수에 저장해주자.
+이 이후 게시글 전체를 감싸고 있는 태그의 id값과 _config.yml에 입력한 paginate_path값에서 :num 이전 까지의 주소를 변수에 저장해주자.
 
 ```
 var postWrapperId = 'card-wrapper';
