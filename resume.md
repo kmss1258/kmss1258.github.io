@@ -66,7 +66,7 @@ Hi, I'm  Jaemin Lee and Web Developer!
 C(7), C++(3), Java(5), PHP(4), Python(4), VisualBasic(3), Javascript(8), Typescript(6), HTML(9), CSS(9), Swift(1) ...
 
 - **Frameworks & Library:**   
-Express(js), React(js), Vue(js), Nuxt(js), Angular(js), Spring(java), awt(java) ...
+Express(js), React(js), Vue(js), jQuery(js), Nuxt(js), Angular(js), Spring(java), awt(java) ...
 
 - **OS**:   
 Windows, Ubuntu, macOs, Android, IOS
@@ -104,8 +104,21 @@ UNIX Systems,
 Operating system
 
 ## Works
-- DAREUNKOREA Inc. (CTO, 2016 ~ 2018.4)
-- Techand Inc. (Web Developer, 2018.06 ~)
+### DAREUNKOREA Inc. (CTO, 2016 ~ 2018.4)
+Responsibility project:
+- **Web based Realtime Communication Service ‘CON’**   
+Stack: Node Js, MariaDB, websocket, Nginx
+- **SNS platform using Google Maps API**   
+Stack: AWS(EC2, S3, RDB), Node Js, Google API
+- **Development of Real-Time Simulation Platform**    
+Stack: Node Js, MariaDB, Radis, WebSocket
+- **Investor & Company Matching Online Platform**    
+Stack: Node Js, MariaDB, jQuery
+
+### Techand Inc. (Web Developer, 2018.06 ~)
+project:
+- **Real-time home IoT control interface using MQTT**   
+Stack: MQTT, Typescript, PostgreSQL
 
 ## My Links 🔗
 
