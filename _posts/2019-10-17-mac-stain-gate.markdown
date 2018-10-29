@@ -8,7 +8,7 @@ categories: log mac
 cover: "/assets/post-assets/2019-10-17-mac-stain-gate/ubase.jpg"
 ---
 
-나는 최근에 15인치 맥북 프로를 처분하고 13인치 프로를 사용하고있다. 그러다 내 맥북이 **스테인게이트 무상교체**(정확하게 말하면 상판 무상교체) 대상임을 알게되었고, 이 글은 무상 교체를 받은 것에 대한 후기이다.
+나는 최근에 15인치 맥북 프로를 처분하고 13인치 프로를 사용하고있다. 그러다 내 맥북이 **스테인게이트 무상수리**(정확하게 말하면 상판 무상교체) 대상임을 알게되었고, 이 글은 무상 교체를 받은 것에 대한 후기이다.
 
 ## 스테인게이트
 스테인게이트는 맥북 디스플레이에 반사방지 코팅이 결함에 의해 벗겨저 나가는 현상이다. 애플은 이 결함을 공식 인정하고 결함 디스플레이가 탑재된 모델에 한하여 무상 교체 서비스를 시작했다.
@@ -44,7 +44,7 @@ cover: "/assets/post-assets/2019-10-17-mac-stain-gate/ubase.jpg"
 
 ![paper](/assets/post-assets/2019-10-17-mac-stain-gate/paper.jpg)
 
-접수가 완료되면 다음과 같이 맥을 종이 쪼가리로 교환할 수 가있다.
+접수가 완료되면 다음과 같이 맥북을 종이 쪼가리로 교환할 수 가있다.
 
 ## 교체 후기
 
@@ -52,7 +52,7 @@ cover: "/assets/post-assets/2019-10-17-mac-stain-gate/ubase.jpg"
 
 ![result](/assets/post-assets/2019-10-17-mac-stain-gate/result.jpg)
 
-센터에 방문하면 교체 상태를 확인하고 위 처럼 뽁뽁이 봉투에 맥을 담아서 돌려준다.
+센터에 방문하면 교체 상태를 확인하고 위 처럼 뽁뽁이 봉투에 맥북을 담아서 돌려준다.
 
 ![result2](/assets/post-assets/2019-10-17-mac-stain-gate/result2.jpg)
 
