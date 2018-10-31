@@ -13,6 +13,8 @@ layout: default
         {{ page.date | date: date_format }}
     </span>
     <div class="post__contents">
+        {%- include adsense.html -%}
+
         {{ content }}
     </div>
 
