@@ -5,7 +5,7 @@ title:  "맥북 코팅 벗겨짐 문제 무상수리 후기: 스테인게이트"
 date:   2018-10-17
 author: "J911"
 categories: log mac
-cover: "/assets/post-assets/2019-10-17-mac-stain-gate/ubase.jpg"
+cover: "/assets/post-assets/2018-10-17-mac-stain-gate/ubase.jpg"
 ---
 
 나는 최근에 15인치 맥북 프로를 처분하고 13인치 프로를 사용하고있다. 그러다 내 맥북이 **스테인게이트 무상수리**(정확하게 말하면 상판 무상교체) 대상임을 알게되었고, 이 글은 무상 교체를 받은 것에 대한 후기이다.
