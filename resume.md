@@ -101,7 +101,9 @@ Data communication,
 Mobile protocol,
 Computer network(TCP/IP),
 UNIX Systems,
-Operating system
+Operating system,
+Artificial Intelligence Engineering, 
+Mobile Programming(Android Programming)
 
 ## Works
 ### DAREUNKOREA Inc. (CTO, 2016 ~ 2018.4)
