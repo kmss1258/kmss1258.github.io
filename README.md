@@ -4,8 +4,12 @@
   <p align="center">이재민의 개발 블로그입니다.</p>
 </p>
 
+반갑습니다 해피코더 이재민입니다. 8살에 우연히 코딩을 접하고 꾸준히 코딩을 하는 중입니다.    
+현재는 **AiRL**연구실에서 인공지능 공학을 공부하고 있습니다.
+
 ## :link: links
 - blog: [https://j911.me](https://j911.me)
+- resume: [https://j911.me/resume](https://j911.me/resume)
 - github: [https://github.com/j911](https://github.com/j911)
 - sourcerer: [https://sourcerer.io/j911](https://sourcerer.io/j911)
 - instagram: [https://www.instagram.com/j911.me](https://www.instagram.com/j911.me)
