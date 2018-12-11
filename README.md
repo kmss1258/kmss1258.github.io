@@ -2,7 +2,7 @@
   <img src="assets/image/logo-round.png">
   <h1 align="center">J911의 개발블로그</h1>
   <p align="center">이재민이 배우고 경험한 것을 기록하는 블로그입니다.</p>
-  <p align="center"><a href="https://j911.me" tareget="_blank">:link: J911.me</a></p>
+  <p align="center"><a href="https://j911.me" target="_blank">:link: J911.me</a></p>
 </p>
 
 반갑습니다 해피코더 이재민입니다. 8살에 우연히 코딩을 접하고 꾸준히 코딩을 하는 중입니다.    
