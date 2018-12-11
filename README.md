@@ -4,7 +4,7 @@
   <p align="center">이재민의 개발 블로그입니다.</p>
 </p>
 
-## links
+## :link: links
 - blog: [https://j911.me](https://j911.me)
 - github: [https://github.com/j911](https://github.com/j911)
 - sourcerer: [https://sourcerer.io/j911](https://sourcerer.io/j911)
