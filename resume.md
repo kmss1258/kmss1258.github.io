@@ -4,11 +4,16 @@ title: Jaemin's resume
 description: Hi, I'm  Jaemin Lee and Web Developer!
 cover: "/assets/image/resume-cover.jpeg"
 ---
+<style>
+.post { padding: 0 20px; }
+.post__cover{ display: none; }
+.post__title { display: none; }
+</style>
 <p align="center">
-  <img width="200" src="./assets/image/profile.png">
+  <img width="200" style="box-shadow: none" src="./assets/image/profile.png">
   <h1 align="center">Jaemin's resume</h1>
   <p align="center">안녕하세요 개발자 이재민입니다!</p>
-  <p align="center"><a href="https://j911.me" target="_blank">:link: J911.me</a></p>
+  <p align="center"><a href="https://j911.me" target="_blank">🔗 J911.me</a></p>
   <p align="center"><a href="https://github.com/J911/resume/blob/master/en.md" target="_blank">🇺🇸영어 </a><a href="https://github.com/J911/resume/blob/master/ko.md" target="_blank">🇰🇷한국어</a></p>
 </p>
 
@@ -20,7 +25,6 @@ cover: "/assets/image/resume-cover.jpeg"
 ### codeveloper:
 💻 여러 개발자가 실시간으로 개발 가능한 웹기반의 IDE 플랫폼
 
-![codeveloper demo](/resource/image/codeveloper.gif)
 - Homepage: [https://github.com/J911/codeveloper/blob/master/README.md](https://github.com/J911/codeveloper/blob/master/README.md)
 - Development Report: [https://www.slideshare.net/ssuser827c0b/codeveloper-98231390](https://www.slideshare.net/ssuser827c0b/codeveloper-98231390)
 - Repository: [https://github.com/J911/codeveloper](https://github.com/J911/codeveloper)
