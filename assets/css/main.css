@@ -311,7 +311,7 @@ hr {
     /* width: 100%; */
     max-width: 100%;
     margin: 10px auto;
-    box-shadow: 0 0 8px rgb(117, 117, 117);
+    /* box-shadow: 0 0 8px rgb(117, 117, 117); */
 }
 .post__contents a {
     color: rgb(240, 187, 88);
