@@ -14,3 +14,4 @@
 ### Translation Equivariant?
 배열 안의 값들이 Shift 되는 것 마냥, 특징 값들이 그대로 이동하여 특징값으로 존재하는 것을 equivatiant 하다고 함.
 
+### 
