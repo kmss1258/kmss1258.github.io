@@ -1,20 +1,25 @@
 <p align="center">
   <img src="assets/image/logo-round.png">
-  <h1 align="center">J911의 개발블로그</h1>
-  <p align="center">이재민이 배우고 경험한 것을 기록하는 블로그입니다.</p>
+  <h1 align="center">나날이 여기에 있습니다</h1>
   <p align="center"><a href="https://j911.me" target="_blank">:link: J911.me</a></p>
 </p>
 
-반갑습니다 해피코더 이재민입니다. 8살에 우연히 코딩을 접하고 꾸준히 코딩을 하는 중입니다.    
-현재는 **AiRL**연구실에서 인공지능 공학을 공부하고 있습니다.
+# 기술
+진행 프로젝트 별로 기술하는게 나을 듯
 
-## :link: links
-- blog: [https://j911.me](https://j911.me)
-- resume: [https://j911.me/resume](https://j911.me/resume)
-- github: [https://github.com/j911](https://github.com/j911)
-- sourcerer: [https://sourcerer.io/j911](https://sourcerer.io/j911)
-- instagram: [https://www.instagram.com/j911.me](https://www.instagram.com/j911.me)
-- linkedin: [https://www.linkedin.com/in/jaemin-lee-8850b7152](https://www.linkedin.com/in/jaemin-lee-8850b7152)
+## LANGUAGE
+## C, C++, JAVA, Python, CUDA
 
-## :mailbox: contact
-- email: jaemin.lee.email@gmail.com
+## API
+## OpenCV, OpenGL, Android SDK, MFC, Tensorflow, Keras
+
+## 관심 분야
+## Image Processing, Machine/Reinforcement Learning, GPGPU Computing Acceleration, Point Cloud Surface Reconstruction
+
+## DirectX9를 이용한 NV12(YUV Image) 형식 데이터 고속 렌더링
+## From Raw-based to OpenCV 영상처리
+## NVIDIA CUDA 라이브러리를 이용한 다양한 영상처리 (YUV420 <-> RGB888)
+## NVIDIA VIDEO SDK를 이용한 HEVC 포맷 스트리밍 고속 복호화 서비스 구현
+## MFC를 이용한 영상 플레이어 제작
+## Python Code C++ 에서 실행 (Boost Python)
+
