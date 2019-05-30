@@ -8,7 +8,6 @@ categories: Posts
 cover: "/assets/post-assets/2017-09-24-what-should-I-develop/cover.jpg"
 ---
 
-# Colmap-setup
 Colmap을 세팅해 봅시다    
      
 * 
