@@ -1,3 +1,13 @@
+---
+layout: post
+comments: true
+title:  "어떤 기술을 개발해야 할까"
+date:   2017-11-24
+author: "J911"
+categories: Posts
+cover: "/assets/post-assets/2017-09-24-what-should-I-develop/cover.jpg"
+---
+
 
 # 머신러닝 Ch.4
 기존의 학습 방식은 Feature-based 방식이었음.    
