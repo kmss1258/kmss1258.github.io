@@ -38,7 +38,7 @@ COLMAP.bat 실행하면 된다.
 Processing - Feature Extraction를 클릭하여 이미지 간의 특징점들을 추출함    
     
 > 실행 결과    
-> ![img1](https://github.com/kmss1258/Colmap-setup/image1.PNG)
+> ![img1](https://github.com/kmss1258/Colmap-setup/blob/master/image1.PNG)
 
 ### Feature 매칭
 Processing - Feature Matching 을 클릭하여 각 Feature Point에 대해 유사한 Feature 들 끼리 묶어준다.    
@@ -46,8 +46,8 @@ Database Management를 이용하여 영 아닌 Feature 매칭 들에 대해서 �
     
 > 실행 결과    
     
-> ![img2](https://github.com/kmss1258/Colmap-setup/image2.PNG)    
-> ![img2-2](https://github.com/kmss1258/Colmap-setup/image2-2.PNG)    
+> ![img2](https://github.com/kmss1258/Colmap-setup/blob/master/image2.PNG)    
+> ![img2-2](https://github.com/kmss1258/Colmap-setup/blob/master/image2-2.PNG)    
 > 각 매칭 결과도 그림으로 제공 해준다.    
 
 
@@ -56,7 +56,7 @@ Reconstruction - Start Reconstruction 을 클릭하여 3D Point Cloud를 생성�
 
 # 실행 결과 및 구동 영상
     
-> ![gif1](https://github.com/kmss1258/Colmap-setup/gif1.gif)
+> ![gif1](https://github.com/kmss1258/Colmap-setup/blob/master/gif1.gif)
 
 
 # ERROR
