@@ -10,7 +10,7 @@ cover: "/assets/post-assets/2017-09-24-what-should-I-develop/cover.jpg"
 
 Colmap을 세팅해 봅시다    
      
-* 
+
 
 Reference : https://www.youtube.com/watch?v=P-EC0DzeVEU&t=183s    
 Dataset : 
