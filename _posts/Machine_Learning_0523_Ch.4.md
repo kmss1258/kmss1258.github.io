@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "어떤 기술을 개발해야 할까"
 date:   2019-05-23
-author: "Exusio"
+author: "kmss1258"
 categories: Posts
 cover: "/assets/post-assets/2017-09-24-what-should-I-develop/cover.jpg"
 ---
